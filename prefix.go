@@ -1,9 +1,5 @@
 package container
 
-import "github.com/aghape/helpers"
+import "github.com/moisespsena/go-path-helpers"
 
-var PREFIX string
-
-func init() {
-	PREFIX = helpers.GetCalledDir()
-}
+var PREFIX = path_helpers.GetCalledDir()
